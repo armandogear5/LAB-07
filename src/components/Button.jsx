@@ -8,8 +8,8 @@ export const Button = (props) => {
 
     const newRandomNumber = Math.floor(Math.random() * 100) + 1;
     alert(`Número aleatorio: ${newRandomNumber}`);
-    
     setRandomNumber(newRandomNumber);
+    
   }
 
   return (
