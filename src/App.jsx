@@ -6,6 +6,8 @@ import { Button } from './components/Button'
 import { WapperList } from './components/WrapperList'
 import { List } from './components/List'
 import { RandomComponent } from './components/RandomComponent'
+
+
 function App() {
 
   const buttonText = "Count :";
@@ -18,6 +20,7 @@ function App() {
       <List/>
     </WapperList>
     <RandomComponent/>
+
   </>
   )
 }
